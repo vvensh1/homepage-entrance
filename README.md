@@ -51,3 +51,5 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ## header部分
  1. 左侧是公司logo图片和公司名称， 右侧展示日期，和用户名以及头像 ![alt text](logo.png)
 ## 中间
+ 1. 按照ui设计图： 一个antd的tab，分为 全部 办公管理 研究分析类 
+ 2. 紧接着是两个banner，左边的请使用这张图![alt text](banner_left.png)，右边还有一张图先搁置
