@@ -44,3 +44,10 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+# 项目描述
+这个网页是研究院所有网页的主要入口，主要是跳转功能，下面是我的ui设计图 ![alt text](7c6ac33bb7a4da57b82235c2ae11aac.png)
+请根据设计图使用合适的组件库生成网页，确保我的网页是多分辨率自适应适配的
+## header部分
+ 1. 左侧是公司logo图片和公司名称， 右侧展示日期，和用户名以及头像 ![alt text](logo.png)
+## 中间
