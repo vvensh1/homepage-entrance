@@ -1,16 +1,17 @@
 import React from 'react';
 import './LinkCard.css';
 import { LinkConfig } from '../config/links';
+import { URLs } from '../config/urls';
 
-const LinkCard: React.FC<LinkConfig> = ({ icon, text, link }) => {
+const LinkCard: React.FC<LinkConfig> = ({ icon, text, urlKey }) => {
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
-    window.open(link, '_blank', 'noopener,noreferrer');
+    window.open(URLs[urlKey], '_blank', 'noopener,noreferrer');
   };
 
   return (
     <a 
-      href={link} 
+      href={URLs[urlKey]} 
       className="link-card" 
       onClick={handleClick}
     >
