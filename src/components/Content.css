@@ -1,6 +1,5 @@
 .main-content {
   padding: 24px 30px;
-  margin-top: 64px;
 }
 
 .tabs-section {
@@ -19,7 +18,7 @@
 .banners-section {
   display: flex;
   gap: 24px;
-  margin: 24px 30px;
+  margin: 0 24px;
 }
 
 .banner-left, .banner-right {
@@ -33,26 +32,17 @@
   object-fit: cover;
 }
 
-.content-section {
-  margin-bottom: 48px;
-  padding: 24px 0; /* Remove horizontal padding */
-}
-
 .section-title {
-  font-size: 22px;
+  font-size: 16px;
   color: #000;
-  margin-bottom: 24px;
-  font-weight: 500;
-  padding: 0 30px;
+  font-weight: 600;
+
 }
 
 .links-grid {
   display: flex;
   flex-wrap: wrap;
   margin: 0 -12px; /* Negative margin to offset card margins */
-  padding: 0 30px;
-  width: calc(100% - 60px); /* Account for padding */
-  box-sizing: border-box;
 }
 
 .custom-tabs {
@@ -69,7 +59,8 @@
 }
 
 .ant-tabs-nav {
-  padding: 8px 24px;
+  padding: 8px 0px;
+
 }
 
 @media (max-width: 768px) {

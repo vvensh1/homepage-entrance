@@ -1,15 +1,19 @@
 import React from 'react';
 import './LinkCard.css';
+import { LinkConfig } from '../config/links';
 
-interface LinkCardProps {
-  icon: string;
-  text: string;
-  link: string;
-}
+const LinkCard: React.FC<LinkConfig> = ({ icon, text, link }) => {
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    window.open(link, '_blank', 'noopener,noreferrer');
+  };
 
-const LinkCard: React.FC<LinkCardProps> = ({ icon, text, link }) => {
   return (
-    <a href={link} className="link-card">
+    <a 
+      href={link} 
+      className="link-card" 
+      onClick={handleClick}
+    >
       <img src={icon} alt={text} className="link-icon" />
       <span className="link-text">{text}</span>
     </a>
