@@ -46,10 +46,14 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 # 项目描述
-这个网页是研究院所有网页的主要入口，主要是跳转功能，下面是我的ui设计图 ![alt text](7c6ac33bb7a4da57b82235c2ae11aac.png)
+这个网页是研究院所有网页的主要入口，主要是跳转功能，下面是我的 ui设计图：  ![alt text](7c6ac33bb7a4da57b82235c2ae11aac.png)
 请根据设计图使用合适的组件库生成网页，确保我的网页是多分辨率自适应适配的
 ## header部分
  1. 左侧是公司logo图片和公司名称， 右侧展示日期，和用户名以及头像 ![alt text](logo.png)
 ## 中间
  1. 按照ui设计图： 一个antd的tab，分为 全部 办公管理 研究分析类 
- 2. 紧接着是两个banner，左边的请使用这张图![alt text](banner_left.png)，右边还有一张图先搁置
+ 2. 紧接着是两个banner，左边的请使用这张图![alt text](banner_left.png)，右边还有一张图
+
+## 下方内容展示
+1. 按照ui图，全部里面分为两个部分 办公管理 和 研究分析类 这两个小标题为 22px 黑色
+2. 根据ui图。创建一个component，参数为icon，文字，跳转链接，可以循环使用在展示内容中
